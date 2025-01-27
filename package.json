@@ -1,0 +1,21 @@
+{
+  "name": "benish-cli-number-guessing-game",
+  "version": "1.0.2",
+  "description": "This is cli based number guessing game",
+  "license": "ISC",
+  "author": "\"Beenish rajput\"",
+  "type": "module",
+  "bin": {
+    "my-cli-number-guessing-game": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "inquirer": "^12.3.2"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
